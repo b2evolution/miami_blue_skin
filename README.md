@@ -1,4 +1,4 @@
-## Miami Blue4 skin for b2evolution CMS blog.
+## Miami Blue skin for b2evolution CMS blog.
 
 <img src="skinshot.png"/>
 
