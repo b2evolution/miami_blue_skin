@@ -215,6 +215,15 @@ div.action_messages {
 	background: url(img/icons.png) no-repeat 5px -36px;
 	/* border: 1px solid #78a; */
 }
+#wrapper div.featured_post {
+	border: none;
+}
+.featured_post.bPostpublished {
+	padding-left: 30px;
+}
+div.featured_post.bPostpublished h2 {
+	margin-top: -10px;
+}
 .bSmallHead {
 	padding: 5px 0 7px;
 	font-size: 84%;

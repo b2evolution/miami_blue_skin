@@ -81,16 +81,21 @@ $params = array_merge( array(
 	?>
 
 	<?php
+		if( ! $Item->is_intro() ) // Do NOT apply tags, comments and feedback on intro posts
+		{
 		// List all tags attached to this post:
 		$Item->tags( array(
 				'before' =>         '<div class="">'.T_('Tags').': ',
 				'after' =>          '</div>',
 				'separator' =>      ', ',
 			) );
+		}
 	?>
 
 	<div class="bSmallPrint">
 		<?php
+			if( ! $Item->is_intro() ) // Do NOT apply tags, comments and feedback on intro posts
+			{
 			// Link to comments, trackbacks, etc.:
 			$Item->feedback_link( array(
 							'type' => 'feedbacks',
@@ -102,6 +107,7 @@ $params = array_merge( array(
 							'link_title' => '#',
 							'use_popup' => false,
 						) );
+			}
 
 			$Item->edit_link( array( // Link to backoffice for editing
 					'before'    => '',

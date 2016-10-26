@@ -2,6 +2,14 @@
 
 <img src="skinshot.png"/>
 
+### Update Log
+
+#### v1.1.1
+
+- Tags and feedback removed from intro posts
+- Fixed Intro posts layout
+- New skinshot
+
 #### v1.1.
 
 - Sitewide_header included for easier multi-blogging experience
